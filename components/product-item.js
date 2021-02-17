@@ -35,6 +35,7 @@ class ProductItem extends HTMLElement {
         localStorage.setItem("cart"+this.productID,'0');
       }
     });
+    
     const img = document.createElement('img');
     img.setAttribute('src','');
     img.setAttribute('alt','');

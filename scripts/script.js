@@ -32,7 +32,6 @@ window.addEventListener('DOMContentLoaded', () => {
       item.shadowRoot.querySelector('button').setAttribute('onclick', "alert('Added to Cart!')");
       item.shadowRoot.querySelector('button').textContent = 'Add to Cart';
     }
-    
     document.getElementById("product-list").appendChild(item);
   }
 });
